@@ -5,6 +5,11 @@
 	"dependencies": {
 		"express": "^4.12.4",
 		"jade":"^1.9.2",
-		"mongodb": "^2.0.33"
+		"mongodb": "^2.0.33",
+		"underscore":"^1.8.3"
+	},
+	"devDependencies": {
+		"gulp":"^3.8.11",
+		"gulp-typescript":"^2.7.5"
 	}
 }
