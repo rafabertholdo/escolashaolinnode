@@ -1,0 +1,10 @@
+{
+	"name": "mongo-server",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"express": "^4.12.4",
+		"jade":"^1.9.2",
+		"mongodb": "^2.0.33"
+	}
+}
