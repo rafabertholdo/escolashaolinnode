@@ -2,7 +2,7 @@
 /// <reference path="../typings/express/express.d.ts"/>
 /// <reference path="../typings/underscore/underscore.d.ts"/>
 
-import http = require("http");
+import {createServer } from "http";
 import express = require('express');
 import path = require('path');
 import db = require('./db'); 
@@ -27,6 +27,6 @@ app.use(function (req,res) { //1
     res.render('404', {url:req.url}); //2
 });
 
-http.createServer(app).listen(app.get('port'), function(){
+createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
